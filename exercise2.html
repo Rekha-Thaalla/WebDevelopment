@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Webpage using JavaScript</title>
+        <style> h1{color:tomato;}
+        h2{color:brown;}
+        </style></head>
+    <body>
+     <b><h1 style = text-align:center;>Welcome to JavaScript</h1></b>
+        <u><h1 style="color:crimson;">What can JavaScript Do?</h1></u>
+        <h2 style="color:green;" >1. JavaScript can change HTML Content.</h2>
+        <h2 id="hcontent" style="color:rgb(255, 88, 11);" >Hello Guest</h2>
+        <button type='button' onclick='document.getElementById("hcontent").innerHTML="Hello Rekha"'> Rekha!</button>
+        <button type='button' onclick='document.getElementById("hcontent").innerHTML="Hello Ms.Thaalla"'> Thaalla!</button>
+
+        <h2 style="color:green;">2. JavaScript can change HTML attribute values</h2>
+        <img id="image" src="C:\Users\Mahesh\Downloads\desert.jpg" width="150px" height="150px">
+        <button onclick="document.getElementById('image').src='C:\Users\Mahesh\Downloads\desert.jpg'">Dessert</button>
+        <img id="image" src="C:\Users\Mahesh\Downloads\image123.jpg" width="200px" height="200px">
+        <button onclick="document.getElementById('image').src="C:\Users\Mahesh\Downloads\image123.jpg" ">W3Schools </button>
+        <img id="image" src=https://www.icegif.com/wp-content/uploads/thank-you-icegif-14.gif  width="200px" height="200px">
+        <button onclick="document.getElementById('image').src='https://www.icegif.com/wp-content/uploads/thank-you-icegif-14.gif' ">Thank You</button>
+        <img id="Bulbon" src=https://www.w3schools.com/js/pic_bulbon.gif >
+        <button onclick="document.getElementById('Bulbon').src='https://www.w3schools.com/js/pic_bulbon.gif' ">Bulbon</button>
+        <button onclick="document.getElementById('Bulbon').src='https://www.w3schools.com/js/pic_bulboff.gif' ">Bulboff</button>
+
+
+        <h2 style="color:green;">3. JavaScript can also Hide and Display the Content</h2>
+        <h2 id="text">Hello W3Schools</h2>
+        <button type='button' onclick='document.getElementById("text").style.display="none"'>Hide</button>
+        <button type='button' onclick='document.getElementById("text").style.color="orange"'>display</button>   
+    </body>
+</html>
